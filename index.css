@@ -1,3 +1,264 @@
+@font-face {
+  font-family: 'janglywalk';
+  src: url("fonts/janglywalk.eot");
+  src: url("fonts/janglywalk.eot?#iefix") format("embedded-opentype"), url("fonts/janglywalk.woff") format("woff"), url("fonts/janglywalk.ttf") format("truetype"), url("fonts/janglywalk.svg#janglywalk") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+html {
+  font-family: "Source Sans Pro", "Zoram", "noto sans", Helvetica, Arial, sans-serif;
+  font-size: 62.5%;
+  -webkit-text-size-adjust: 100%; }
 
+body {
+  margin: 0; }
+
+img {
+  max-width: 100%; }
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box; }
+
+button {
+  background: transparent;
+  border: 0; }
+
+*:focus,
+*:active {
+  outline: 0; }
+
+button:focus,
+input:focus,
+textarea:focus {
+  box-shadow: 0 0 1px 1px #799515; }
+
+::selection {
+  background: #799515;
+  color: #FFFFFF; }
+
+::-moz-selection {
+  background: #799515;
+  color: #FFFFFF; }
+
+@media only screen and (max-width: 640px) {
+  h1 {
+    font-size: 3.2rem; }
+
+  h2 {
+    font-size: 2.8rem; }
+
+  h3 {
+    font-size: 2.2rem; }
+
+  h4 {
+    font-size: 1.5rem; }
+
+  h5 {
+    font-size: 1.8rem; }
+
+  h6 {
+    font-size: 1.2rem; } }
+@media only screen and (min-width: 641px) {
+  h1 {
+    font-size: 4.6rem; }
+
+  h2 {
+    font-size: 3.4rem; }
+
+  h3 {
+    font-size: 2.6rem; }
+
+  h4 {
+    font-size: 2rem; }
+
+  h5 {
+    font-size: 2rem; }
+
+  h6 {
+    font-size: 1.6rem; } }
+@media only screen and (min-width: 901px) {
+  font-size: 1.8rem;
+  line-height: 1.7; }
+body {
+  font-size: 1.8rem;
+  color: #799515;
+  line-height: 1.4;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh; }
+  body .historify-container {
+    flex: 1; }
+    body .historify-container.loading:before {
+      position: fixed;
+      display: block;
+      content: '';
+      top: 0;
+      left: 0;
+      height: 100vh;
+      width: 100vw;
+      z-index: 150;
+      background: #DADADA url("/images/loading.gif") no-repeat fixed center;
+      opacity: 0.4; }
+  body h1, body h2, body h3, body h4, body h5, body h6 {
+    font-family: 'janglywalk';
+    font-weight: normal; }
+  @media only screen and (max-width: 640px) {
+    body h1 {
+      font-size: 3.2rem; }
+    body h2 {
+      font-size: 2.8rem; }
+    body h3 {
+      font-size: 2.2rem; }
+    body h4 {
+      font-size: 1.5rem; }
+    body h5 {
+      font-size: 1.8rem; }
+    body h6 {
+      font-size: 1.2rem; } }
+  @media only screen and (min-width: 641px) {
+    body h1 {
+      font-size: 4.6rem; }
+    body h2 {
+      font-size: 3.4rem; }
+    body h3 {
+      font-size: 2.6rem; }
+    body h4 {
+      font-size: 2rem; }
+    body h5 {
+      font-size: 2rem; }
+    body h6 {
+      font-size: 1.6rem; } }
+  @media only screen and (min-width: 901px) {
+    body {
+      font-size: 1.8rem;
+      line-height: 1.7; } }
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: #799515;
+  color: #FFFFFF;
+  overflow: visible;
+  height: 5.5rem;
+  z-index: 200;
+  width: 100%; }
+  .preview .header {
+    top: 7.2rem; }
+  .header .header__main-row {
+    max-width: 1200px;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%; }
+    .header .header__main-row h1 {
+      marign: 0; }
+      .header .header__main-row h1 a .header__logo-graphic {
+        display: none; }
+      .header .header__main-row h1 a .header__logo-text {
+        display: inline-block;
+        font-size: 1.6rem;
+        vertical-align: middle;
+        text-transform: uppercase;
+        max-width: 17rem; }
+    .header .header__main-row .icon, .header .header__main-row a {
+      color: #FFFFFF;
+      text-decoration: none;
+      cursor: pointer; }
+    .header .header__main-row span {
+      font-size: 3rem; }
+  @media only screen and (min-width: 641px) {
+    .header .header__main-row h1 a .header__logo-text {
+      max-width: 28rem; } }
+  @media only screen and (min-width: 901px) {
+    .header .header__main-row {
+      align-items: flex-start; }
+      .header .header__main-row h1 {
+        z-index: 1;
+        position: relative;
+        top: 0;
+        width: 13rem;
+        height: 10rem;
+        margin: 0; }
+        .header .header__main-row h1 a {
+          display: block;
+          height: 100%; }
+          .header .header__main-row h1 a .header__logo-graphic {
+            display: block; }
+          .header .header__main-row h1 a .header__logo-text {
+            display: none; }
+      .header .header__main-row #site-nav {
+        height: 100%;
+        width: 50%;
+        min-width: 50rem; }
+      .header .header__main-row .icon {
+        display: none; } }
+
+.nav ul {
+  list-style: none; }
+  .nav ul li a {
+    text-transform: uppercase; }
+@media only screen and (max-width: 900px) {
+  .nav#site-nav > .list {
+    background: #e4e3df;
+    position: fixed;
+    top: 5.5rem;
+    left: 0;
+    z-index: 100;
+    width: 100%; }
+    .nav#site-nav > .list li {
+      border-bottom: 1px solid #C3C3C3; }
+      .nav#site-nav > .list li a {
+        padding: 0 5%;
+        display: block;
+        font-size: 1.8rem;
+        color: #799515;
+        line-height: 2; } }
+@media only screen and (min-width: 901px) {
+  .nav#site-nav {
+    color: #FFFFFF;
+    height: 100%; }
+    .nav#site-nav a {
+      color: #FFFFFF;
+      text-decoration: none; }
+      .nav#site-nav a:hover {
+        color: #c8c8c8; }
+    .nav#site-nav .list {
+      height: 100%; }
+    .nav#site-nav ul {
+      height: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end; }
+      .nav#site-nav ul li {
+        padding-bottom: 1rem;
+        margin-left: 3rem;
+        white-space: nowrap; }
+        .nav#site-nav ul li:first-of-type {
+          margin-left: 0; }
+        .nav#site-nav ul li.active {
+          position: relative; }
+          .nav#site-nav ul li.active a {
+            color: #FFFFFF; } }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+main {
+  max-width: 1200px;
+  width: 90%;
+  margin: 10rem auto 4rem;
+  padding-top: 2.5rem;
+  background: #FFFFFF;
+  height: 100%; }
+  @media only screen and (min-width: 901px) {
+    main {
+      margin-bottom: 8rem;
+      padding-top: 4.5rem; } }
 
 /*# sourceMappingURL=index.css.map */

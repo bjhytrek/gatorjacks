@@ -21,29 +21,7 @@
     </head>
 
     <body>
-        <header>
-            <h1>
-          <a href="index.php?">
-              <img src="images/gator-jacks.psd.png" alt="Gator Jacks">
-          </a>
-      </h1>
-            <nav>
-                <ul>
-                    <?php 
-                    $arrayLength = count($pages);
-                    for($i=0; $i < $arrayLength; $i++) {
-                        if ($pages[$i] == $page){
-                           echo "<li class=\"active\"><a href=\"?page=$pages[$i]\">$pages[$i]</a></li>"; 
-                            
-                        }else{
-                           echo "<li><a href=\"?page=$pages[$i]\">$pages[$i]</a></li>"; 
-                        }
-                        
-    
-}   ?>
-                </ul>
-            </nav>
-        </header>
+        <?php include 'components/header/header.php'; ?>
 
         <main class="gator-jacks">
 
@@ -64,7 +42,7 @@
             }
         ?>
         </main>
-
+    <?php include 'components/footer/footer.php'; ?>
     </body>
 
     </html>

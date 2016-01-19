@@ -1,0 +1,34 @@
+// First imports
+@import 'components/theme/fonts.scss';
+@import 'components/theme/colors.scss';
+@import "components/theme/vars.scss";
+//  VARIABLES
+//$font__family--primary: 'janglywalk';
+
+// Dependent Imports
+@import "components/theme/reset.scss";
+@import "components/theme/mixins.scss";
+@import "components/theme/breakpoints.scss";
+@import "components/body/body.scss";
+@import "components/header/header.scss";
+@import "components/nav/nav.scss";
+@import "components/footer/footer.scss";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+main {
+    // GENERAL
+    max-width: $max-width--project;
+    width: $mobile-width;
+    // Height of header for margin-top
+    margin: 10rem auto 4rem;
+    padding-top: 2.5rem;
+	background: $color__white;
+    height: 100%;
+	@media only screen and (min-width:$breakpoint--l + 1) {
+		margin-bottom: 8rem;
+        padding-top: 4.5rem;
+	}
+}
