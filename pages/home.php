@@ -1,9 +1,15 @@
 <div class="row about">
     <h2>About Gator Jacks</h2>
     <img class="responsive-img z-depth-2 about__image" src="images/gator.jpg" alt="Welcome to Gator Jacks">
-    <p class="flow-text">Here at Gator Jacks we provide a unique Cajun experience right here in Rexburg, Idaho.</p>
+    <p class="flow-text">Here at Gator Jacks we provide a unique Cajun experience right here in Rexburg, Idaho. Whether it's a meaty, juice Ruben, or a mouth-watering rice bowl we have what you're look'n for! </p>
+    <h4>We Cater!</h4>
+    <a class="waves-effect waves-light btn" href="/index.php?page=catering">Catering</a>
+    <p class="flow-text"></p>
 
-    <div class="col s6">
+
+</div>
+<div class="row">
+    <div class="col s12 m6 l6">
         <h3>Phone:</h3>
         <p class="flow-text">(208) 356-0779</p>
         <h3>Location:</h3>
@@ -37,4 +43,6 @@
             </tbody>
         </table>
     </div>
+    
 </div>
+<div class="row"></div>
