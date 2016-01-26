@@ -17,9 +17,10 @@
         <meta name="description" content="Gator Jack's, Cajun style restaurant.">
         <meta name="author" content="SitePoint">
 
-        <link rel="stylesheet" href="css/materialize.css">
+<!--        <link rel="stylesheet" href="css/materialize.css">-->
+       <link rel="stylesheet" href="index.css">
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-        <link rel="stylesheet" href="index.css">
+        
     </head>
 
     <body>

@@ -1,5 +1,5 @@
 <div class="row about">
-    <h2>About Gator Jacks</h2>
+    <h2 class="center-align divider-line">About Gator Jacks</h2>
     <figure class="about__image"><img class="responsive-img z-depth-2" src="images/gator.jpg" alt="Welcome to Gator Jacks"></figure>
     <p class="flow-text">Here at Gator Jacks we provide a unique Cajun experience right here in Rexburg, Idaho. Whether it's a meaty, juice Ruben, or a mouth-watering rice bowl we have what you're look'n for! </p>
     <h4>We Cater!</h4>
@@ -9,13 +9,13 @@
 
 </div>
 <div class="row">
-    <div class="col s12 m6 l6">
+    <div class="col s12 m6 l6 ">
         <h3>Phone:</h3>
         <p class="flow-text">(208) 356-0779</p>
         <h3>Location:</h3>
         <p class="flow-text">160 W 2nd S, Rexburg, ID 83440</p>
     </div>
-       <div class="col s12 m6 l6">
+    <div class="col s12 m6 l6">
         <h3>Hours:</h3>
         <table>
             <thead>
@@ -45,6 +45,46 @@
             </tbody>
         </table>
     </div>
+
+</div>
+<div class="menu">
+    <h2 class="center-align divider-line">Menu</h2>
+    <div class="menu__section">
+        <h3>Sandwiches</h3>
+        <h4 class="price"> 4" $499 6" $5.99 8" $6.99 24" $19.99</h4>
+        <ul class="food__list">
+            <li class="food__item">
+                <h4>The Gator Back</h4>
+                <p class="flow-text">Ham piled high with choice of cheese and veggies.</p>
+            </li>
+               <li class="food__item">
+                <h4>Old Bessie</h4>
+                <p class="flow-text">Roast beef, cuz she ain’t want she used to be.</p>
+            </li>
+               <li class="food__item">
+                <h4>Sumthins A Fowl</h4>
+                <p class="flow-text">Turkey, nuf said!</p>
+            </li>
+              </li>
+               <li class="food__item">
+                <h4>Veggie De-Lite</h4>
+                <p class="flow-text">Tell us all de veggies ur wantin’!</p>
+            </li>
+              </li>
+               <li class="food__item">
+                <h4>Rum Runner</h4>
+                <p class="flow-text">Lean hot pastrami, choice o’ sauce and cheese.</p>
+            </li>
+              </li>
+               <li class="food__item">
+                <h4>Still Of De Night</h4>
+                <p class="flow-text">Salami, ham and provolone. Loader well.</p>
+            </li>
+               <li class="food__item">
+                <h4></h4>
+                <p class="flow-text"></p>
+            </li>
+        </ul>
+    </div>
     
 </div>
-<div class="row"></div>

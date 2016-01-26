@@ -1,24 +1,32 @@
+@import 'sass/materialize.scss';
 @font-face {
     font-family: 'janglywalk';
     src: url('font/janglywalk.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
- h1,h2,h3,h4,h5,h6 {
-    font-family: janglywalk,GillSans, Calibri, Trebuchet, sans-serif;
-  }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: janglywalk, GillSans, Calibri, Trebuchet, sans-serif;
+}
+
 nav {
-    ul{
-        li{
+    ul {
+        li {
             text-transform: uppercase;
         }
     }
 }
 
 .brand-logo {
-//    width: 10rem;
-    h1{
-        margin:0 .5rem 0;
+    //    width: 10rem;
+    h1 {
+        margin: 0 .5rem 0;
     }
     img {
         margin-right: 1rem;
@@ -36,12 +44,46 @@ body {
 main.container {
     margin-top: 5rem;
     flex: 1 0 auto;
-    
-    .about {
-        &__image {
-            float:left;
-            max-width: 30rem;
-            margin-right: 2rem;
+    .divider-line {
+        overflow: hidden;
+        &:before {
+            content: "";
+            vertical-align: middle;
+            display: inline-block;
+            width: 50%;
+            border-top: 3px solid gray;
+            margin: 0 1rem 0 -55%;
+        }
+        &:after {
+            content: "";
+            vertical-align: middle;
+            display: inline-block;
+            width: 50%;
+            border-top: 3px solid gray;
+            margin: 0 -55% 0 1rem;
         }
     }
+
+.about {
+    &__image {
+        float: left;
+        max-width: 30rem;
+        margin-right: 2rem;
+    }
+}
+    .menu {
+        &__section {
+            .food__list{
+                display: flex;
+                flex-wrap: wrap;
+                .food__item {
+                @include rowMachine(3, 4%);
+            }
+            }
+            
+            
+        }
+    }
+
+
 }
