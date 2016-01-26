@@ -17,15 +17,17 @@
         <meta name="description" content="Gator Jack's, Cajun style restaurant.">
         <meta name="author" content="SitePoint">
 
+        <link rel="stylesheet" href="/gatorjacks/css/materialize.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <link rel="stylesheet" href="index.css">
     </head>
 
     <body>
         <?php include 'components/header/header.php'; ?>
 
-        <main class="gator-jacks">
+            <main class="container">
 
-            <?php 
+                <?php 
            
             if (!empty($page)) {
 
@@ -41,8 +43,11 @@
                 include('pages/home.php');
             }
         ?>
-        </main>
-    <?php include 'components/footer/footer.php'; ?>
+            </main>
+            <?php include 'components/footer/footer.php'; ?>
     </body>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="js/bin/materialize.min.js"></script>
+    <script type="text/javascript" src="index.js"></script>
 
     </html>

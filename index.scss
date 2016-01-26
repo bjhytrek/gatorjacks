@@ -1,34 +1,46 @@
-// First imports
-@import 'components/theme/fonts.scss';
-@import 'components/theme/colors.scss';
-@import "components/theme/vars.scss";
-//  VARIABLES
-//$font__family--primary: 'janglywalk';
-
-// Dependent Imports
-@import "components/theme/reset.scss";
-@import "components/theme/mixins.scss";
-@import "components/theme/breakpoints.scss";
-@import "components/body/body.scss";
-@import "components/header/header.scss";
-@import "components/nav/nav.scss";
-@import "components/footer/footer.scss";
-
-* {
-    margin: 0;
-    padding: 0;
+@font-face {
+    font-family: 'janglywalk';
+    src: url('font/janglywalk.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
 }
-main {
-    // GENERAL
-    max-width: $max-width--project;
-    width: $mobile-width;
-    // Height of header for margin-top
-    margin: 10rem auto 4rem;
-    padding-top: 2.5rem;
-	background: $color__white;
-    height: 100%;
-	@media only screen and (min-width:$breakpoint--l + 1) {
-		margin-bottom: 8rem;
-        padding-top: 4.5rem;
-	}
+ h1,h2,h3,h4,h5,h6 {
+    font-family: janglywalk,GillSans, Calibri, Trebuchet, sans-serif;
+  }
+nav {
+    ul{
+        li{
+            text-transform: uppercase;
+        }
+    }
+}
+
+.brand-logo {
+//    width: 10rem;
+    h1{
+        margin:0 .5rem 0;
+    }
+    img {
+        margin-right: 1rem;
+        width: 10rem;
+        float: left;
+    }
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main.container {
+    margin-top: 5rem;
+    flex: 1 0 auto;
+    
+    .about {
+        &__image {
+            float:left;
+            max-width: 30rem;
+        }
+    }
 }
