@@ -1,3 +1,4 @@
+<h1 class="center-align divider-line">Location</h1>
 <div class="row">
     <div class="col s12 m6 l6 ">
         <h3>Phone:</h3>
