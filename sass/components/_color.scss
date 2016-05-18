@@ -189,7 +189,11 @@ $green: (
   "accent-3":    #00E676,
   "accent-4":    #00C853
 );
-
+$gator-green: (
+  "swamp": #65633D,
+  "forrest": #2C3C2F,
+  "accent": #7aa228
+  );
 $light-green: (
   "lighten-5":  #f1f8e9,
   "lighten-4":  #dcedc8,
@@ -349,6 +353,7 @@ $colors: (
   "cyan": $cyan,
   "teal": $teal,
   "green": $green,
+  "gator-green": $gator-green,
   "light-green": $light-green,
   "lime": $lime,
   "yellow": $yellow,

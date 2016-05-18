@@ -13,6 +13,7 @@ h4,
 h5,
 h6 {
     font-family: janglywalk, GillSans, Calibri, Trebuchet, sans-serif;
+    // color: color("gator-green", "swamp");
 }
 
 nav {
@@ -23,25 +24,19 @@ nav {
     }
 }
 
-.brand-logo {
-    //    width: 10rem;
-    h1 {
-        margin: 0 .5rem 0;
-    }
-    img {
-        margin-right: 1rem;
-        width: 10rem;
-        float: left;
-    }
+.brand-logo > img {
+       width: 10rem;
 }
 
 body {
     display: flex;
     min-height: 100vh;
     flex-direction: column;
+    // background-color: $primary-color;
 }
 
 main.container {
+    background-color: #FFFFFF;
     margin-top: 5rem;
     flex: 1 0 auto;
     .divider-line {
@@ -63,27 +58,50 @@ main.container {
             margin: 0 -55% 0 1rem;
         }
     }
-
-.about {
-    &__image {
-        float: left;
-        max-width: 30rem;
-        margin-right: 2rem;
+    .about {
+        &__image {
+            float: left;
+            max-width: 30rem;
+            margin-right: 2rem;
+        }
     }
-}
     .menu {
-        &__section {
-            .food__list{
+        section {
+            background:url(images/chalkboard.png) repeat;
+            color: #FFFFFF;
+            padding: .5rem .5rem 0 .5rem;
+            border-radius:5px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+            h3 {
+                @extend .center-align;
+            }
+            h3,h4 {
+                color: #906C2E;
+            }
+            .food__list {
                 display: flex;
                 flex-wrap: wrap;
                 .food__item {
-                @include rowMachine(3, 4%);
+                    @include rowMachine(2,
+                    4%);
+                }
             }
-            }
-            
-            
         }
     }
-
-
+    .flexible-container {
+        position: relative;
+        padding-bottom: 56.25%;
+        padding-top: 30px;
+        height: 0;
+        overflow: hidden;
+    }
+    .flexible-container iframe,
+    .flexible-container object,
+    .flexible-container embed {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
 }

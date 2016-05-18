@@ -4,7 +4,7 @@
             $page = isset($_REQUEST['page']) ? $_REQUEST['page'] : '' ;
             $php  = '.php';
             $both = $path . $page . $php;
-            $pages = array( 'home', 'menu', 'catering');
+            $pages = array( 'home', 'menu', 'catering', 'location');
 
 ?>
     <!doctype html>
@@ -35,6 +35,8 @@
                 if(in_array($page,$pages)) {
                     //$page .= '.php';
                     include($both);
+                }elseif ($page == 'thank_you'){
+                    include('pages/'.$page.'.php');
                 }
                 else {
                     include('pages/error-page.php');

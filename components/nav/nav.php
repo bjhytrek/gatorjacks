@@ -1,11 +1,13 @@
 <nav>
     <div class="nav-wrapper container">
-      <a href="#" class="brand-logo">
-          <img src="images/gator-jacks.psd.png" alt="GatorJacks Logo">
-          <h1>Gator Jacks</h1>
+      <a href="#" class="brand-logo hide-on-med-and-down">
+          <img src="images/gator-jacks.psd.png" alt="GatorJacks Logo"> 
+      </a>
+      <a href="#" class="brand-logo center hide-on-large-only">
+          <h1>Gator Jack's</h1> 
       </a>
       <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
-      <ul id="nav-mobile" class="right hide-on-med-and-down">
+      <ul class="right hide-on-med-and-down">
         <?php 
                     $arrayLength = count($pages);
                     for($i=0; $i < $arrayLength; $i++) {

@@ -1,13 +1,3 @@
-<div class="row about">
-    <h2 class="center-align divider-line">About Gator Jacks</h2>
-    <img class="about__image responsive-img z-depth-2" src="images/gator.jpg" alt="Welcome to Gator Jacks">
-    <p class="flow-text">Here at Gator Jacks we provide a unique Cajun experience right here in Rexburg, Idaho. Whether it's a meaty, juice Ruben, or a mouth-watering rice bowl we have what you're look'n for! </p>
-    <h4>We Cater!</h4>
-    <a class="waves-effect waves-light btn-large" href="/index.php?page=catering">Catering</a>
-    <p class="flow-text"></p>
-
-
-</div>
 <div class="row">
     <div class="col s12 m6 l6 ">
         <h3>Phone:</h3>
@@ -50,8 +40,10 @@
             </tbody>
         </table>
     </div>
-
-</div>
-<?php include $_SERVER['DOCUMENT_ROOT'].'/gatorjacks/components/menu/menu.php'; ?>
+    </div>
+<!--    <div class="row">-->
+    <div class="flexible-container">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11514.518375646878!2d-111.788436!3d43.822042!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x1e8dd82299e91093!2sGator+Jack&#39;s+of+Rexburg!5e0!3m2!1sen!2sus!4v1456205161436" width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" style="border:0" allowfullscreen></iframe>
+    </div>
+<!--</div>-->
     
-</div>
