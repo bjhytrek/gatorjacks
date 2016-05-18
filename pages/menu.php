@@ -1,1 +1,1 @@
-<?php include $_SERVER['DOCUMENT_ROOT'].'/gatorjacks/components/menu/menu.php'; ?>
+<?php include $_SERVER['DOCUMENT_ROOT'].'/components/menu/menu.php'; ?>
