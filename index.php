@@ -1,10 +1,48 @@
 <?php
 
-            $path = 'pages/';
-            $page = isset($_REQUEST['page']) ? $_REQUEST['page'] : '' ;
-            $php  = '.php';
-            $both = $path . $page . $php;
-            $pages = array( 'home', 'menu', 'catering', 'location');
+        $path = 'pages/';
+        $page = isset($_REQUEST['page']) ? $_REQUEST['page'] : '' ;
+        $php  = '.php';
+        $both = $path . $page . $php;
+        $pages = array( 'home', 'menu', 'catering', 'location');
+
+
+        if(isset($_REQUEST['submit'])){
+            if($_POST['first_name'] && $_POST['last_name'] && $_POST['email'] && $_POST['phone'] && $_POST['message']){
+
+                $to = "hyt12001@byui.edu"; // this is your Email address
+                $from = check_input($_POST['email']); // this is the sender's Email address
+                $first_name = check_input($_POST['first_name']);
+                $last_name = check_input($_POST['last_name']);
+                $phone = check_input($_POST['phone']);
+                $subject = "Catering Request";
+                $subject2 = "Copy of your form submission";
+                $checked_message = check_input($_POST['message']);
+                $message = $first_name . " " . $last_name . " wrote the following:" . "\n\n" . $checked_message . "\n\n" . $first_name." ".$last_name . "\n".$phone;
+                $message2 = "Here is a copy of your message " . $first_name . "\n" . $checked_message . "\n" . $first_name." ".$last_name . "\n".$phone;
+
+                // Mail the form information:
+                $headers = "From:" . $from;
+                $headers2 = "From:" . $to;
+                mail($to,$subject,$message,$headers);
+                mail($from,$subject2,$message2,$headers2); // sends a copy of the message to the sender
+                $page = 'thank_you';
+                }
+                else{
+                    $user_message = 'Please fill out all form items.';
+                    $page = 'catering';
+                }
+            
+            }
+
+        // Check all inputs.
+        function check_input($data)
+         {
+            $data = trim($data);
+            $data = stripslashes($data);
+            $data = htmlspecialchars($data);
+            return $data;
+         }
 
 ?>
     <!doctype html>
@@ -31,18 +69,17 @@
                 <?php 
            
             if (!empty($page)) {
-
-                if(in_array($page,$pages)) {
-                    //$page .= '.php';
-                    include($both);
-                }elseif ($page == 'thank_you'){
+                if ($page == 'thank_you'){
                     include('pages/'.$page.'.php');
                 }
-                else {
+                elseif(in_array($page,$pages)) {
+                    //$page .= '.php';
+                    include($both);
+                
+                }else {
                     include('pages/error-page.php');
                 }
-            }
-            else {
+            }else {
                 include('pages/home.php');
             }
         ?>

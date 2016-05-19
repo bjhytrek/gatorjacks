@@ -52,6 +52,13 @@
     </div>
 
 </div>
-<?php include $_SERVER['DOCUMENT_ROOT'].'/components/menu/menu.php'; ?>
+<?php if ($openShiftVar === null || $openShiftVar == ""){
+        // Not in Openshift
+        include 'components/menu/menu.php';
+        
+     }else{
+        include $_SERVER['DOCUMENT_ROOT'].'/components/menu/menu.php'; 
+     }
+     ?>
     
 </div>
