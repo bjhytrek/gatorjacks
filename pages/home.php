@@ -3,7 +3,7 @@
     <img class="about__image responsive-img z-depth-2" src="images/gator.jpg" alt="Welcome to Gator Jacks">
     <p class="flow-text">Here at Gator Jacks we provide a unique Cajun experience right here in Rexburg, Idaho. Whether it's a meaty, juice Ruben, or a mouth-watering rice bowl we have what you're look'n for! </p>
     <h4>We Cater!</h4>
-    <a class="waves-effect waves-light btn-large" href="/index.php?page=catering">Catering</a>
+    <a class="waves-effect waves-light btn-large" href="index.php?page=catering">Catering</a>
     <p class="flow-text"></p>
 
 
@@ -12,7 +12,7 @@
     <div class="col s12 m6 l6 ">
         <h3>Phone:</h3>
         <p class="flow-text">(208) 356-0779</p>
-        <h3>Location:</h3>
+        <h3>Address:</h3>
         <p class="flow-text">160 W 2nd S, Rexburg, ID 83440</p>
     </div>
     <div class="col s12 m6 l6">

@@ -1,39 +1,41 @@
 <div class="menu">
-    <h2 class="center-align divider-line">Menu</h2>
-      <section>
+    <div class="menu__header">
+      <?php include 'components/banner/banner.php'; ?>
+    </div>
+
+  <ul class="collapsible" data-collapsible="expandable">
+    <li>
+      <div class="collapsible-header">
         <h3>Sandwiches</h3>
+      </div>
+      <div class="collapsible-body menu__section">
         <h3 class="price"> 4" $4.99 6" $5.99 8" $6.99 24" $19.99</h3>
         <ul class="food__list">
             <li class="food__item">
                 <h4>The Gator Back</h4>
                 <p class="flow-text">Ham piled high with choice of cheese and veggies.</p>
             </li>
-               <li class="food__item">
+            <li class="food__item">
                 <h4>Old Bessie</h4>
                 <p class="flow-text">Roast beef, cuz she ain’t want she used to be.</p>
             </li>
-               <li class="food__item">
+            <li class="food__item">
                 <h4>Sumthins A Fowl</h4>
                 <p class="flow-text">Turkey, nuf said!</p>
             </li>
-              </li>
-               <li class="food__item">
+            <li class="food__item">
                 <h4>Veggie De-Lite</h4>
                 <p class="flow-text">Tell us all de veggies ur wantin’!</p>
             </li>
-              </li>
-               <li class="food__item">
+            <li class="food__item">
                 <h4>Rum Runner</h4>
                 <p class="flow-text">Lean hot pastrami, choice o’ sauce and cheese.</p>
             </li>
-              </li>
-               <li class="food__item">
+            <li class="food__item">
                 <h4>Still Of De Night</h4>
                 <p class="flow-text">Salami, ham and provolone. Loader well.</p>
-                </li>
+            </li>
         </ul>
-        </section>
-        <section>
           <h3 class="price">4” $5.79     6” $6.99     8” $7.99    24” $22.99</h3>
         <ul class="food__list">
           <li class="food__item">
@@ -62,8 +64,6 @@
 Tell us all de veggies ya want!</p>
           </li>
         </ul>
-        </section>
-        <section>
           <h3 class="price">4” $6.49     6” $7.99     8” $8.99    24” $23.99</h3>
           <ul class="food__list">
             <li class="food__item">
@@ -88,9 +88,13 @@ Tell us all de veggies ya want!</p>
               <p class="flow-text">French Dip Sandwich. I won’t tell a soul!</p>
             </li>
           </ul>
-        </section>
-        <section>
-          <h3>Hot Dogs</h3>
+        </div>
+    </li>
+    <li>
+    <div class="collapsible-header">
+      <h3>Hot Dogs</h3>
+    </div>
+    <div class="collapsible-body menu__section">
           <ul class="food__list">
             <li class="food__item">
             <h4>Big Foot  $4.49</h4>
@@ -101,7 +105,13 @@ Tell us all de veggies ya want!</p>
             <p class="flow-text">Chili dog wid cheese and onions.</p>
             </li>
           </ul>
-          <h3>Burgers</h3>
+    </div>
+    </li>
+    <li>
+    <div class="collapsible-header">
+      <h3>Burgers</h3>
+    </div>
+    <div class="collapsible-body menu__section">
           <ul class="food__list">
             <li class="food__item">
               <h4>Buford Burger  $5.99</h4>
@@ -127,9 +137,14 @@ Tell us all de veggies ya want!</p>
   Cuz it just a plain ol’ burger</p>
             </li>
           </ul>
-          </section>
-          <section>
-            <h3>Rice Bowls</h3>
+    </div>
+    </li>
+      <li>
+    <div class="collapsible-header">
+      <h3>Rice Bowls</h3>
+    </div>
+    <div class="collapsible-body menu__section">
+          <ul class="food__list">
             <ul class="food__list">
               <li class="food__item">
                 <h4>Original Chicken    $5.49</h4>
@@ -153,39 +168,161 @@ Tell us all de veggies ya want!</p>
                 <h4>Alligator   $13.99</h4>
               </li>
             </ul>
-            </section>
-            <section>
-            <h3>Salads</h3>
-            <ul class="food__list">
+          </ul>
+    </div>
+    </li>
+    <li>
+      <div class="collapsible-header">
+        <h3>Salads</h3>
+      </div>
+      <div class="collapsible-body menu__section">
+       <ul class="food__list">
+            <li class="food__item">
+              <h4>Chicken Caesar         $5.99</h4>
+            </li>
+            <li class="food__item">
+              <h4>House Chef             $5.99</h4>
+            </li>
+            <p><strong>**Make any sandwich into a salad!</strong></p>
+          </ul> 
+      </div>
+    </li>
+     <li>
+    <div class="collapsible-header">
+      <h3>Sides</h3>
+    </div>
+    <div class="collapsible-body menu__section">
+       <ul class="food__list">
               <li class="food__item">
-                <h4>Chicken Caesar         $5.99</h4>
+                <h4>Gator Bites   $3.29</h4>
+                <p class="flow-text">Mini Spuds wid choice o’ sauce</p>
               </li>
               <li class="food__item">
-                <h4>House Chef             $5.99</h4>
-              </li>
-              <p><strong>**Make any sandwich into a salad!</strong></p>
-            </ul>
-            </section>
-            <section>
-            <h3>Soups</h3>
-            <ul class="food__list">
-              <li class="food__item">
-                <h4>Original Chicken    $5.49</h4>
+                <h4>Loaded Gator Bites   $4.49</h4>
+                <p class="flow-text">Loaded wid cheese & bacon</p>
               </li>
               <li class="food__item">
-                <h4>Marinated   $6.89</h4>
-              </li>
-            </ul>
-            <h3>Sides</h3>
-            <ul class="food__list">
-              <li class="food__item">
-                <h4>Original Chicken    $5.49</h4>
+                <h4>Mozzarella Sticks   $4.99</h4>
+                <p class="flow-text">Marina Sauce Included</p>
               </li>
               <li class="food__item">
-                <h4>Marinated   $6.89</h4>
+                <h4>Loaded Fries    $7.99</h4>
+                <p class="flow-text">Chili, Nacho Cheese, Pork, and veggies</p>
               </li>
-            </ul>
-          </section>
+              <li class="food__item">
+                <h4>Large Fries   $4.49</h4>
+                <p class="flow-text">Choice of Waffle or Straight Cut</p>
+              </li>
+              <li class="food__item">
+                <h4>Small Fries   $2.00</h4>
+                <p class="flow-text">Choice of Waffle or Straight Cut</p>
+              </li>
+        </ul>   
+    </div>
+    </li>
+    <li>
+      <div class="collapsible-header">
+        <h3>Drinks</h3>
+      </div>
+      <div class="collapsible-body menu__section">
+          <p class="flow-text">Fountain Drinks</p>
+           <table>
+               <thead>
+                 <tr>
+                   <th>Fountain Drinks</th>
+                   <th></th>
+                   <th>Combo (Drink with Chips)</th>
+                 </tr>
+               </thead>
+               <tbody>
+                 <tr>
+                   <td>Medium</td>
+                   <td>$1.79</td>
+                   <td>$2.29</td>
+                 </tr>
+                 <tr>
+                   <td>Large</td>
+                   <td>$1.99</td>
+                   <td>$2.79</td>
+                 </tr>
+               </tbody>
+             </table>  
+      </div>
+    </li>
 
-        <!-- ul.food__list>(li.food__item>h4+p.flow-text) -->
+    <!-- <li>
+    <div class="collapsible-header">
+      <h3></h3>
+    </div>
+    <div class="collapsible-body menu__section">
+       <ul class="food__list">
+              <li class="food__item">
+                <h4>Original Chicken    $5.49</h4>
+              </li>
+              <li class="food__item">
+                <h4>Marinated   $6.89</h4>
+              </li>
+            </ul>   
+    </div>
+    </li> -->
+    <li>
+      <div class="collapsible-header">
+        <h3>Crio Bru</h3>
+      </div>
+      <div class="collapsible-body menu__section">
+        <p class="flow-text">A healthy, all-natural drink made from 100% cocoa beans</p>
+        <div class="row">
+          <div class="col s12 m8 l6">
+          <table>
+            <thead>
+              <tr>
+                <th><h4>HOT</h4></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>12oz</td>
+                <td>$2.49</td>
+              </tr>
+              <tr>
+                <td>16oz</td>
+                <td>$3.99</td>
+              </tr>
+            </tbody>
+            <thead>
+              <tr>
+                <th><h4>ICED</h4></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>12oz</td>
+                <td>$2.49</td>
+              </tr>
+              <tr>
+                <td>16oz</td>
+                <td>$3.99</td>
+              </tr>
+            </tbody>
+          </table>
+          </div>
+          <div class="col s12 m4 l6">
+          <h4>Add a Flavor Shot!</h4>
+          <dl>
+            <li>-Caramel</li>
+            <li>-Coconut</li>
+            <li>-Vanilla</li>
+            <li>-Mint</li>
+            <li>-Hazel Nut</li>
+            <li>-Raspberry</li>
+            <li>-Caramel Macchiato</li>
+          </dl>
+          </div>
+          
+        
+        </div>
+      </div>
+        
+    </li>
+  </ul>
     </div>

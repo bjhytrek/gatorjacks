@@ -3,6 +3,10 @@ $primary-color: color("gator-green", "forrest") !default;
 $primary-color-light: lighten($primary-color, 15%) !default;
 $primary-color-dark: darken($primary-color, 15%) !default;
 
+$color-gold: #906C2E;
+$color__white: #ffffff;
+$background-chalkboard: url(images/chalkboard.png) repeat;
+
 $secondary-color: color("orange", "darken-4") !default;
 $success-color: color("green", "base") !default;
 $error-color: color("red", "base") !default;

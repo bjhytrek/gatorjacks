@@ -1,4 +1,6 @@
 @import 'sass/materialize.scss';
+@import 'components/banner/banner.scss';
+@import 'css/font-awesome/css/font-awesome.min.css';
 @font-face {
     font-family: 'janglywalk';
     src: url('font/janglywalk.ttf') format('truetype');
@@ -29,6 +31,7 @@ nav {
 }
 
 body {
+    // background-color: #ccc;
     display: flex;
     min-height: 100vh;
     flex-direction: column;
@@ -66,22 +69,44 @@ main.container {
         }
     }
     .menu {
-        section {
-            background:url(images/chalkboard.png) repeat;
+        // border-radius:5px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        .collapsible{
+            margin-top: 0;
+            border: none;
+            &-header {
+                background:$background-chalkboard;
+                height: 8rem;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                h3 {
+                    color: $color-gold;
+                    margin: 0;
+                }
+            }
+            
+        }
+        
+        &__section {
+            background:$background-chalkboard;
             color: #FFFFFF;
             padding: .5rem .5rem 0 .5rem;
-            border-radius:5px;
-            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+            
+            border-buttom: none; 
             h3 {
-                @extend .center-align;
+                
             }
-            h3,h4 {
-                color: #906C2E;
+            h4 {
+                color: $color-gold;
             }
             .food__list {
                 display: flex;
                 flex-wrap: wrap;
                 .food__item {
+                    p {
+                        padding: 0;
+                    }
                     @include rowMachine(2,
                     4%);
                 }

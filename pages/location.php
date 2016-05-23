@@ -3,7 +3,7 @@
     <div class="col s12 m6 l6 ">
         <h3>Phone:</h3>
         <p class="flow-text">(208) 356-0779</p>
-        <h3>Location:</h3>
+        <h3>Address:</h3>
         <p class="flow-text">160 W 2nd S, Rexburg, ID 83440</p>
     </div>
     <div class="col s12 m6 l6">
