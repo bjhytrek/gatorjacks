@@ -8675,10 +8675,32 @@ main.container {
         height: 8rem;
         display: flex;
         justify-content: space-between;
-        align-items: center; }
+        align-items: center;
+        padding-right: 0; }
         main.container .menu .collapsible-header h3 {
           color: #906C2E;
           margin: 0; }
+        main.container .menu .collapsible-header__image {
+          display: block;
+          position: relative;
+          height: 100%;
+          overflow: hidden;
+          margin: 0; }
+          main.container .menu .collapsible-header__image:after {
+            content: "";
+            display: block;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            width: 100%;
+            max-width: 1000px;
+            margin: 0 auto;
+            /* you need to match the shadow color to your background or image border for the desired effect*/
+            box-shadow: 0 0 8px 8px #202020 inset; }
+          main.container .menu .collapsible-header__image img {
+            width: 100%;
+            height: 115px;
+            object-fit: cover; }
     main.container .menu__section {
       background: url(images/chalkboard.png) repeat;
       color: #FFFFFF;
