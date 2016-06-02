@@ -7,6 +7,9 @@
     <li>
       <div class="collapsible-header">
         <h3>Sandwiches</h3>
+        <figure class="collapsible-header__image">
+          <img src="http://lorempixel.com/600/300/food" alt="">
+        </figure>
       </div>
       <div class="collapsible-body menu__section">
         <h3 class="price"> 4" $4.99 6" $5.99 8" $6.99 24" $19.99</h3>
