@@ -8638,6 +8638,10 @@ nav ul li {
 .brand-logo > img {
   width: 10rem; }
 
+@media only screen and (max-width: 992px) {
+  .brand-logo h1 {
+    font-size: 3rem;
+    margin: 9px 0; } }
 body {
   display: flex;
   min-height: 100vh;
@@ -8672,6 +8676,8 @@ main.container {
     main.container .menu .collapsible {
       margin-top: 0;
       border: none; }
+      main.container .menu .collapsible li:last-child .collapsible-header {
+        border-bottom: none; }
       main.container .menu .collapsible-header {
         background: url(images/chalkboard.png) repeat;
         height: 8rem;
@@ -8687,7 +8693,8 @@ main.container {
           position: relative;
           height: 100%;
           overflow: hidden;
-          margin: 0; }
+          margin: 0;
+          width: 55%; }
           main.container .menu .collapsible-header__image:after {
             content: "";
             display: block;

@@ -7,7 +7,7 @@
       <div class="collapsible-header">
         <h3>Sandwiches</h3>
         <figure class="collapsible-header__image">
-          <img src="images/menu/pastrami-burger.jpg" alt="pastrami burger">
+          <img src="images/blank.gif" class="lazy" data-src="images/menu/still.jpg" width="700" height="115" alt="Still de night Sandwich">
         </figure>
       </div>
       <div class="collapsible-body menu__section">
@@ -95,6 +95,9 @@ Tell us all de veggies ya want!</p>
     <li>
     <div class="collapsible-header">
       <h3>Hot Dogs</h3>
+      <figure class="collapsible-header__image">
+          <img src="images/menu/hot-dog.jpg" alt="pastrami burger">
+        </figure>
     </div>
     <div class="collapsible-body menu__section">
           <ul class="food__list">
@@ -112,6 +115,9 @@ Tell us all de veggies ya want!</p>
     <li>
     <div class="collapsible-header">
       <h3>Burgers</h3>
+      <figure class="collapsible-header__image">
+          <img src="images/menu/pastrami-burger.jpg" alt="pastrami burger">
+        </figure>
     </div>
     <div class="collapsible-body menu__section">
           <ul class="food__list">
@@ -144,6 +150,9 @@ Tell us all de veggies ya want!</p>
       <li>
     <div class="collapsible-header">
       <h3>Rice Bowls</h3>
+      <figure class="collapsible-header__image">
+          <img src="images/blank.gif" class="lazy" data-src="images/menu/rice-bowl.jpg" alt="Chicken Rice Bowl" width="700" height="115">
+      </figure>
     </div>
     <div class="collapsible-body menu__section">
           <ul class="food__list">
@@ -176,6 +185,9 @@ Tell us all de veggies ya want!</p>
     <li>
       <div class="collapsible-header">
         <h3>Salads</h3>
+        <figure class="collapsible-header__image">
+          <img src="images/blank.gif" class="lazy" data-src="images/menu/caesar.jpg" width="700" height="115" alt="Caesar Salad">
+      </figure>
       </div>
       <div class="collapsible-body menu__section">
        <ul class="food__list">
@@ -192,6 +204,9 @@ Tell us all de veggies ya want!</p>
      <li>
     <div class="collapsible-header">
       <h3>Sides</h3>
+      <figure class="collapsible-header__image">
+          <img src="images/blank.gif" class="lazy" data-src="images/menu/cross-cut.jpg" width="700" height="115" alt="Cross Cut French Fries">
+      </figure>
     </div>
     <div class="collapsible-body menu__section">
        <ul class="food__list">
@@ -225,6 +240,9 @@ Tell us all de veggies ya want!</p>
     <li>
       <div class="collapsible-header">
         <h3>Drinks</h3>
+        <figure class="collapsible-header__image">
+          <img src="images/blank.gif" class="lazy" data-src="images/menu/combo.jpg" width="700" height="115"alt="Cobmo with chips and drink">
+      </figure>
       </div>
       <div class="collapsible-body menu__section">
           <p class="flow-text">Fountain Drinks</p>
@@ -270,6 +288,9 @@ Tell us all de veggies ya want!</p>
     <li>
       <div class="collapsible-header">
         <h3>Crio Bru</h3>
+       <!--  <figure class="collapsible-header__image">
+          <img src="images/blank.gif" class="lazy" data-src="images/menu/caesar.jpg" width="700" height="115" alt="pastrami burger">
+      </figure> -->
       </div>
       <div class="collapsible-body menu__section">
         <p class="flow-text">A healthy, all-natural drink made from 100% cocoa beans</p>

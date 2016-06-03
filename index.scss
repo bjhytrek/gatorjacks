@@ -29,6 +29,14 @@ nav {
 .brand-logo > img {
        width: 10rem;
 }
+@media #{$medium-and-down} {
+    .brand-logo {
+        h1 {
+           font-size: 3rem;
+           margin: 9px 0;
+        }
+    }
+  }
 
 body {
     // background-color: #ccc;
@@ -74,6 +82,11 @@ main.container {
         .collapsible{
             margin-top: 0;
             border: none;
+            li:last-child {
+                .collapsible-header {
+                    border-bottom: none;
+                }
+            }
             &-header {
                 background:$background-chalkboard;
                 height: 8rem;
@@ -91,6 +104,7 @@ main.container {
                     height: 100%;
                     overflow: hidden;
                     margin: 0;
+                    width: 55%;
                     &:after {
                         content:"";
                         display: block;
@@ -117,7 +131,6 @@ main.container {
             background:$background-chalkboard;
             color: #FFFFFF;
             padding: .5rem .5rem 0 .5rem;
-            
             border-buttom: none; 
             h3 {
                 
