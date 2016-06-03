@@ -168,3 +168,10 @@ main.container {
         height: 100%;
     }
 }
+@media #{$medium-and-down} {
+    main.container {
+        width: 100%;
+        padding: 0 20px 20px 20px;
+        margin-top: 20px;
+    }
+}
