@@ -8668,6 +8668,7 @@ main.container {
       margin: 0 -55% 0 1rem; }
   main.container .about__image {
     float: left;
+    width: 100%;
     max-width: 30rem;
     margin-right: 2rem; }
   main.container .menu {

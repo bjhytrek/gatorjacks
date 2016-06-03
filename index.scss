@@ -72,7 +72,9 @@ main.container {
     }
     .about {
         &__image {
+            // box-sizing: border-box;
             float: left;
+            width: 100%;
             max-width: 30rem;
             margin-right: 2rem;
         }
