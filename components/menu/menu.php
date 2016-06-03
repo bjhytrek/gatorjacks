@@ -1,14 +1,13 @@
-<div class="menu">
     <div class="menu__header">
       <?php include 'components/banner/banner.php'; ?>
     </div>
-
+<div class="menu">
   <ul class="collapsible" data-collapsible="expandable">
     <li>
       <div class="collapsible-header">
         <h3>Sandwiches</h3>
         <figure class="collapsible-header__image">
-          <img src="http://lorempixel.com/600/300/food" alt="">
+          <img src="images/menu/pastrami-burger.jpg" alt="pastrami burger">
         </figure>
       </div>
       <div class="collapsible-body menu__section">
