@@ -45,8 +45,8 @@
          }
 
 ?>
-    <!doctype html>
-    <html lang="en">
+    <!DOCTYPE html>
+    <html>
 
     <head>
         <meta charset="utf-8">
@@ -58,6 +58,8 @@
 <!--        <link rel="stylesheet" href="css/materialize.css">-->
        <link rel="stylesheet" href="index.css">
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <!--Let browser know website is optimized for mobile-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         
     </head>
 
@@ -85,10 +87,11 @@
         ?>
             </main>
             <?php include 'components/footer/footer.php'; ?>
+            <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+            <script type="text/javascript" src="js/bin/materialize.min.js"></script>
+            <script type="text/javascript" src="index.js"></script>
+            <script type="text/javascript" src="js/lazy-load.js"></script>
     </body>
-    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-    <script type="text/javascript" src="js/bin/materialize.min.js"></script>
-    <script type="text/javascript" src="index.js"></script>
-    <script type="text/javascript" src="js/lazy-load.js"></script>
+   
 
     </html>
