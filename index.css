@@ -8670,7 +8670,7 @@ main.container {
     float: left;
     width: 100%;
     max-width: 30rem;
-    margin-right: 2rem; }
+    margin: 0 2rem 2rem 0; }
   main.container .menu {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
     main.container .menu .collapsible {
