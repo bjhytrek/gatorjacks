@@ -65,9 +65,10 @@
             <p class="flow-text">Turkey, Bacon, Avocado. 
 Tell us all de veggies ya want!</p>
           </li>
-        </ul>
-          <h3 class="price">4” $6.49     6” $7.99     8” $8.99    24” $23.99</h3>
-          <ul class="food__list">
+          <li class="food__item">
+              <h4>Skinny Dipper</h4>
+              <p class="flow-text">French Dip Sandwich. I won’t tell a soul!</p>
+            </li>
             <li class="food__item">
               <h4>The Strange Italian</h4>
               <p class="flow-text">Come to town wid de salami, ham, pepperoni and choice of cheese </p>
@@ -81,14 +82,26 @@ Tell us all de veggies ya want!</p>
               <p class="flow-text">Roast beef, turkey, ham, bacon and cheese. I ain’t tellin’ nobody!</p>
             </li>
             <li class="food__item">
+              <h4>Cow Tipper</h4>
+              <p class="flow-text">Tri-tip piled high!</p>
+            </li>
+            <li class="food__item">
+              <h4>Bayo Brisket</h4>
+              <p class="flow-text">Mouth watering brisket smoked for 8 hours!</p>
+            </li>
+        </ul>
+          <h3 class="price">4” $6.49     6” $7.99     8” $8.99    24” $23.99</h3>
+          <ul class="food__list">
+            <li class="food__item">
               <h4>The Jack</h4>
               <p class="flow-text">Ham, bacon, pastrami, roast beef and turkey. Choice of 2 cheeses n veggies.
   Time fer a nap after dis one!</p>
             </li>
             <li class="food__item">
-              <h4>Skinny Dipper</h4>
-              <p class="flow-text">French Dip Sandwich. I won’t tell a soul!</p>
+              <h4>Hey Y'all</h4>
+              <p class="flow-text">Tri-tip and brisket, can’t get any better!p>
             </li>
+            
           </ul>
         </div>
     </li>

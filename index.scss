@@ -16,7 +16,7 @@ h4,
 h5,
 h6 {
     font-family: janglywalk, GillSans, Calibri, Trebuchet, sans-serif;
-    // color: color("gator-green", "swamp");
+    color: $primary-color;
 }
 
 nav {
@@ -35,6 +35,7 @@ nav {
         h1 {
            font-size: 3rem;
            margin: 9px 0;
+           color: $color-white;
         }
     }
   }
@@ -89,7 +90,11 @@ main.container {
                 .collapsible-header {
                     border-bottom: none;
                 }
+                
             }
+            .price{
+                    color: $color-white;
+                }
             &-header {
                 background:$background-chalkboard;
                 height: 8rem;

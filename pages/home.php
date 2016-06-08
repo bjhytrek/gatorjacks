@@ -5,8 +5,8 @@
     <h4>We Cater!</h4>
     <a class="waves-effect waves-light btn-large" href="index.php?page=catering">Catering</a>
     <p class="flow-text"></p>
-
-
+    <blockquote><h4>Now serving Breakfast!</h4><h4>Delivery coming soon.</h4>
+    </blockquote>
 </div>
 <div class="row">
     <div class="col s12 m6 l6 ">
@@ -29,17 +29,17 @@
             <tbody>
                 <tr>
                     <td>Monday - Thursday</td>
-                    <td>11:00am</td>
-                    <td>10:00pm</td>
+                    <td>7:00am</td>
+                    <td>9:00pm</td>
                 </tr>
                 <tr>
                     <td>Friday</td>
-                    <td>11:00am</td>
+                    <td>7:00am</td>
                     <td>10:00pm</td>
                 </tr>
                 <tr>
                     <td>Saturday</td>
-                    <td>11:00am</td>
+                    <td>7:00am</td>
                     <td>10:00pm</td>
                 </tr>
                    <tr>

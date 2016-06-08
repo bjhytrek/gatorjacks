@@ -2082,7 +2082,7 @@ ul {
 blockquote {
   margin: 20px 0;
   padding-left: 1.5rem;
-  border-left: 5px solid #2C3C2F; }
+  border-left: 5px solid #4c6852; }
 
 i {
   line-height: inherit; }
@@ -8593,11 +8593,12 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
     height: 100%;
     max-height: 350px;
     max-width: 1280px;
-    color: #ffffff;
     color: #ffffff; }
     .banner__content .title {
       width: 100%;
       max-width: 780px; }
+    .banner__content h4 {
+      color: #ffffff; }
   @media only screen and (max-width: 801px) {
     .banner .no-object-fit figure:first-child {
       width: auto;
@@ -8629,7 +8630,8 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: janglywalk, GillSans, Calibri, Trebuchet, sans-serif; }
+  font-family: janglywalk, GillSans, Calibri, Trebuchet, sans-serif;
+  color: #2C3C2F; }
 
 nav ul li {
   text-transform: uppercase; }
@@ -8640,7 +8642,8 @@ nav ul li {
 @media only screen and (max-width: 992px) {
   .brand-logo h1 {
     font-size: 3rem;
-    margin: 9px 0; } }
+    margin: 9px 0;
+    color: #ffffff; } }
 body {
   display: flex;
   min-height: 100vh;
@@ -8678,6 +8681,8 @@ main.container {
       border: none; }
       main.container .menu .collapsible li:last-child .collapsible-header {
         border-bottom: none; }
+      main.container .menu .collapsible .price {
+        color: #ffffff; }
       main.container .menu .collapsible-header {
         background: url(images/chalkboard.png) repeat;
         height: 8rem;
