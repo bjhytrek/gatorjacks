@@ -5,6 +5,9 @@
     <h4>We Cater!</h4>
     <a class="waves-effect waves-light btn-large" href="index.php?page=catering">Catering</a>
     <p class="flow-text"></p>
+    
+</div>
+<div class="row">
     <blockquote><h4>Delivery coming soon!</h4>
     </blockquote>
 </div>

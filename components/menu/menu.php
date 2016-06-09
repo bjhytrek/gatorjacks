@@ -2,7 +2,7 @@
       <?php include 'components/banner/banner.php'; ?>
     </div>
 <div class="menu">
-  <ul class="collapsible" data-collapsible="expandable">
+  <ul class="collapsible" data-collapsible="accordion">
     <li>
       <div class="collapsible-header">
         <h3>Sandwiches</h3>
@@ -160,6 +160,29 @@ Tell us all de veggies ya want!</p>
           </ul>
     </div>
     </li>
+    <li>
+    <div class="collapsible-header">
+      <h3>Breakfast</h3>
+      <figure class="collapsible-header__image">
+          <img src="images/menu/borrito.jpg" alt="Breakfast borrito">
+        </figure>
+    </div>
+    <div class="collapsible-body menu__section">
+          <ul class="food__list">
+            <li class="food__item">
+              <h4>Breakfast Borrito  $5.49</h4>
+              <p class="flow-text">You choose two of three meats ham bacon or sausage. Then pile on the veggies.</p>
+            </li>
+            <li class="food__item">
+              <h4>Breakfast Sandwich $5.49</h4>
+              <p class="flow-text">Turn any breakfast borrito into a sandwich.</p>
+            </li>
+            <blockquote class="--light">Add steak  $.50</blockquote>
+            
+          </ul>
+    </div>
+    </li>
+
       <li>
     <div class="collapsible-header">
       <h3>Rice Bowls</h3>
@@ -282,22 +305,6 @@ Tell us all de veggies ya want!</p>
              </table>  
       </div>
     </li>
-
-    <!-- <li>
-    <div class="collapsible-header">
-      <h3></h3>
-    </div>
-    <div class="collapsible-body menu__section">
-       <ul class="food__list">
-              <li class="food__item">
-                <h4>Original Chicken    $5.49</h4>
-              </li>
-              <li class="food__item">
-                <h4>Marinated   $6.89</h4>
-              </li>
-            </ul>   
-    </div>
-    </li> -->
     <li>
       <div class="collapsible-header">
         <h3>Crio Bru</h3>
