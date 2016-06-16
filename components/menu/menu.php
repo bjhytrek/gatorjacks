@@ -74,7 +74,7 @@ Tell us all de veggies ya want!</p>
               <p class="flow-text">Come to town wid de salami, ham, pepperoni and choice of cheese </p>
             </li>
             <li class="food__item">
-              <h4>Reben Down By De River</h4>
+              <h4>Reuben Down By De River</h4>
               <p class="flow-text">Lean hot pastrami, cheese and sour kraut. Servin’ these hot out de oven.</p>
             </li>
             <li class="food__item">

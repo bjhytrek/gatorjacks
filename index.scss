@@ -113,6 +113,7 @@ main.container {
                     overflow: hidden;
                     margin: 0;
                     width: 55%;
+
                     &:after {
                         content:"";
                         display: block;
@@ -176,3 +177,21 @@ main.container {
         height: 100%;
     }
 }
+@media #{$small-and-down} {
+    // styles for small screens and down
+    
+    .menu{
+       
+        h3 {
+            font-size: 2.2rem;
+       } 
+       h4 {
+            font-size: 2rem;
+        }
+       .collapsible-header__image {
+            width: 40%;
+        }
+    } 
+    }
+
+    
