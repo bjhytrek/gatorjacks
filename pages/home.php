@@ -8,7 +8,7 @@
     
 </div>
 <div class="row">
-    <blockquote><h4>Delivery coming soon!</h4>
+    <blockquote><h4>We now deliver!</h4>
     </blockquote>
 </div>
 <div class="row">
