@@ -47,8 +47,9 @@
             width: 100%;
             max-width: 780px;
         }
-        h4 {
+        &__title {
             color: $color-white;
+            margin-bottom: 0;
         }
         
     }

@@ -10,7 +10,7 @@
         if(isset($_REQUEST['submit'])){
             if($_POST['first_name'] && $_POST['last_name'] && $_POST['email'] && $_POST['phone'] && $_POST['message']){
 
-                $to = "hyt12001@byui.edu"; // this is your Email address
+                $to = "fourgators15@gmail.com"; // this is your Email address
                 $from = check_input($_POST['email']); // this is the sender's Email address
                 $first_name = check_input($_POST['first_name']);
                 $last_name = check_input($_POST['last_name']);

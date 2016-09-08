@@ -2,7 +2,7 @@
       <?php include 'components/banner/banner.php'; ?>
     </div>
 <div class="menu">
-  <ul class="collapsible" data-collapsible="expandable">
+  <ul class="collapsible" data-collapsible="accordion">
     <li>
       <div class="collapsible-header">
         <h3>Sandwiches</h3>
@@ -74,7 +74,7 @@ Tell us all de veggies ya want!</p>
               <p class="flow-text">Come to town wid de salami, ham, pepperoni and choice of cheese </p>
             </li>
             <li class="food__item">
-              <h4>Reben Down By De River</h4>
+              <h4>Reuben Down By De River</h4>
               <p class="flow-text">Lean hot pastrami, cheese and sour kraut. Servin’ these hot out de oven.</p>
             </li>
             <li class="food__item">
@@ -86,8 +86,8 @@ Tell us all de veggies ya want!</p>
               <p class="flow-text">Tri-tip piled high!</p>
             </li>
             <li class="food__item">
-              <h4>Bayo Brisket</h4>
-              <p class="flow-text">Mouth watering brisket smoked for 8 hours!</p>
+              <h4>Bayou Brisket</h4>
+              <p class="flow-text">Mouth-watering brisket smoked for 8 hours!</p>
             </li>
         </ul>
           <h3 class="price">4” $6.49     6” $7.99     8” $8.99    24” $23.99</h3>
@@ -99,7 +99,7 @@ Tell us all de veggies ya want!</p>
             </li>
             <li class="food__item">
               <h4>Hey Y'all</h4>
-              <p class="flow-text">Tri-tip and brisket, can’t get any better!p>
+              <p class="flow-text">Tri-tip and brisket, can’t get any better!</p>
             </li>
             
           </ul>
@@ -160,6 +160,29 @@ Tell us all de veggies ya want!</p>
           </ul>
     </div>
     </li>
+    <li>
+    <div class="collapsible-header">
+      <h3>Breakfast</h3>
+      <figure class="collapsible-header__image">
+          <img src="images/menu/burrito.jpg" alt="Breakfast burrito">
+        </figure>
+    </div>
+    <div class="collapsible-body menu__section">
+          <ul class="food__list">
+            <li class="food__item">
+              <h4>Breakfast Burrito  $5.49</h4>
+              <p class="flow-text">You choose two of three meats ham bacon or sausage. Then pile on the veggies.</p>
+            </li>
+            <li class="food__item">
+              <h4>Breakfast Sandwich $5.49</h4>
+              <p class="flow-text">Turn any breakfast burrito into a sandwich.</p>
+            </li>
+            <blockquote class="--light">Add steak  $.50</blockquote>
+            
+          </ul>
+    </div>
+    </li>
+
       <li>
     <div class="collapsible-header">
       <h3>Rice Bowls</h3>
@@ -282,22 +305,6 @@ Tell us all de veggies ya want!</p>
              </table>  
       </div>
     </li>
-
-    <!-- <li>
-    <div class="collapsible-header">
-      <h3></h3>
-    </div>
-    <div class="collapsible-body menu__section">
-       <ul class="food__list">
-              <li class="food__item">
-                <h4>Original Chicken    $5.49</h4>
-              </li>
-              <li class="food__item">
-                <h4>Marinated   $6.89</h4>
-              </li>
-            </ul>   
-    </div>
-    </li> -->
     <li>
       <div class="collapsible-header">
         <h3>Crio Bru</h3>

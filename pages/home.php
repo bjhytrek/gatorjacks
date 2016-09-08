@@ -1,11 +1,14 @@
 <div class="row about">
     <h2 class="center-align divider-line">About Gator Jack's</h2>
     <img class="about__image responsive-img z-depth-2" src="images/gator.jpg" alt="Welcome to Gator Jacks">
-    <p class="flow-text">Here at Gator Jacks we provide a unique Cajun experience right here in Rexburg, Idaho. Whether it's a meaty, juice Ruben, or a mouth-watering rice bowl we have what you're look'n for! </p>
+    <p class="flow-text">Here at Gator Jacks we provide a unique Cajun experience right here in Rexburg, Idaho. Whether it's a meaty, juicy reuben or a mouth-watering burger we have what you're look'n for! </p>
     <h4>We Cater!</h4>
     <a class="waves-effect waves-light btn-large" href="index.php?page=catering">Catering</a>
     <p class="flow-text"></p>
-    <blockquote><h4>Now serving Breakfast!</h4><h4>Delivery coming soon.</h4>
+    
+</div>
+<div class="row">
+    <blockquote><h4>Delivery coming soon!</h4>
     </blockquote>
 </div>
 <div class="row">

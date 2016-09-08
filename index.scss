@@ -45,7 +45,7 @@ body {
     display: flex;
     min-height: 100vh;
     flex-direction: column;
-    // background-color: $primary-color;
+    // background-color: $primary-color;  
 }
 
 main.container {
@@ -59,7 +59,7 @@ main.container {
             vertical-align: middle;
             display: inline-block;
             width: 50%;
-            border-top: 3px solid gray;
+            border-top: 3px solid #267F37;
             margin: 0 1rem 0 -55%;
         }
         &:after {
@@ -67,7 +67,7 @@ main.container {
             vertical-align: middle;
             display: inline-block;
             width: 50%;
-            border-top: 3px solid gray;
+            border-top: 3px solid #267F37;
             margin: 0 -55% 0 1rem;
         }
     }
@@ -88,7 +88,7 @@ main.container {
             border: none;
             li:last-child {
                 .collapsible-header {
-                    border-bottom: none;
+                    border-bottom-style: none ;
                 }
                 
             }
@@ -113,6 +113,7 @@ main.container {
                     overflow: hidden;
                     margin: 0;
                     width: 55%;
+
                     &:after {
                         content:"";
                         display: block;
@@ -139,7 +140,7 @@ main.container {
             background:$background-chalkboard;
             color: #FFFFFF;
             padding: .5rem .5rem 0 .5rem;
-            border-buttom: none; 
+            border-buttom-style: none; 
             h3 {
                 
             }
@@ -176,3 +177,21 @@ main.container {
         height: 100%;
     }
 }
+@media #{$small-and-down} {
+    // styles for small screens and down
+    
+    .menu{
+       
+        h3 {
+            font-size: 2.2rem;
+       } 
+       h4 {
+            font-size: 2rem;
+        }
+       .collapsible-header__image {
+            width: 40%;
+        }
+    } 
+    }
+
+    
